@@ -1,0 +1,27 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "Single page application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Julio Barrios <julio.barrios.9618@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^10.2.4"
+  }
+}
